@@ -20,7 +20,7 @@ def main():
         for j in range(i*11,i*11+11):
             titles=title[j].get_attribute("innerText")
             list.append(titles)
-        print("names:",names," 最新收盘价:",list[0]," PE:",list[1])
+        print("股票:",names," 最新收盘价:",list[0]," PE:",list[1]," PE分位:",list[2]," PB:",list[3]," PB分位:",list[4]," ROE:",list[5]," 股息率:",list[6]," 近1月:",list[7]," 近3月:",list[8]," 近6月:",list[9]," 近1年:",list[10])
 
     time.sleep(5)
     driver.quit()
